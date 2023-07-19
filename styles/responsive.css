@@ -1,0 +1,20 @@
+@media screen and (max-width: 576px) {
+    /* Responsive Navbar */
+    .container{
+        width: 100%;
+    }
+    .nav-container,
+    .banner-section
+    {
+        flex-direction: column;
+    }
+    .nav-container{
+        height: 250px;
+    }
+    .nav-container > ul{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+}
