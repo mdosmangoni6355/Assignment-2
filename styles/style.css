@@ -239,3 +239,50 @@ nav{
     color: var(--text-color);
     padding-top: 20px;
 }
+
+/* Games Multiple Section */
+
+.games-multiple{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 0;
+}
+.games-multiple .card-button{
+    width: 220px;
+    height: 70px;
+    display: flex;
+    padding-left: 10px;
+    gap: 5px;
+    align-items: center;
+}
+.games-multiple .card-button:hover{
+    color: #FF42A5;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.card-button h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.card-button img{
+    width: 50px;
+}
+.games-multiple-one{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.games-multiple-one .card-button{
+    width: 220px;
+    height: 70px;
+    display: flex;
+    padding-left: 10px;
+    gap: 5px;
+    align-items: center;
+}
+.games-multiple-one .card-button:hover{
+    border: 2px solid red;
+    border-radius: 50px;
+}
